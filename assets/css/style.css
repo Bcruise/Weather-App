@@ -1,0 +1,80 @@
+.weather-header {
+    width: 100%;
+    height: 75px;
+}
+
+.form-label {
+    font-size: 40px;
+}
+
+aside, .input-group, .form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+aside {
+    height: 150px;
+}
+
+
+.weather-search {
+    border: 1px solid grey;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.weather-hr {
+    margin-top: 25px;
+    width: 100%;
+    border: 1px solid grey;
+}
+
+#forecast-holding-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.forecast-divs {
+    margin-top: 20px;
+    color: white;
+    height: 150px;
+    width: 150px;
+    margin-left: 7px;
+    margin-right: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.today {
+    border: 1px solid black;
+    height: 200px;
+}
+
+.right-section {
+    margin-top: -20px;
+}
+
+.forecast-span {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#forecast {
+    padding-left: 17px;
+}
+
+.list-button {
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    height: 40px;
+}
+
+
+
+
